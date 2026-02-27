@@ -25,6 +25,8 @@ Address: <address>
 * ETH : 1
 * USDT: 1
 * USDC: 1
+
+[View Account](https://explorer.soo.network/address/<address>)
 ```
 
 ## Query Transaction History
