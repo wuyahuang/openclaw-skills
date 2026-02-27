@@ -26,8 +26,18 @@ Address: <address>
 * USDT: 1
 * USDC: 1
 
-[View Account](https://explorer.soo.network/address/<address>)
+[View Account](https://explorer.soo.network/address/<address>/tokens)
 ```
+
+Example Response:
+```
+Address: <address>
+
+💰 Balances:
+
+No tokens found in this wallet yet.
+```
+
 
 ## Query Transaction History
 
@@ -40,11 +50,20 @@ Returns a list of transactions with timestamp and clickable transaction link in 
 
 Example Response:
 ```
-Address: 7FFiaNrQSaH7RnBuvNWkDZBeMZ9cHv36c2pdnd2eQnH2
+Address: <address>
 
 ⏰ Recent Transfers:
 * 2026-02-26 00:50:10 (UTC) | [View Tx](https://explorer.soo.network/tx/)
 * 2026-02-26 00:50:10 (UTC) | [View Tx](https://explorer.soo.network/tx/)
+```
+
+Example Response:
+```
+Address: <address>
+
+⏰ Recent Transfers:
+
+No recent transactions found.
 ```
 
 ## Query Token-specific Transfer History
@@ -58,11 +77,20 @@ Returns a list of token transfers with timestamp, amount, direction (IN/OUT), an
 
 Example Response:
 ```
-Address: 7FFiaNrQSaH7RnBuvNWkDZBeMZ9cHv36c2pdnd2eQnH2
+Address: <address>
 
 ⏰ Recent USDT Transfers:
 * 2026-02-26 00:50:10 (UTC) | OUT | 4.99 | [View Tx](https://explorer.soo.network/tx/)
 * 2026-02-26 00:50:10 (UTC) | IN  | 4.99 | [View Tx](https://explorer.soo.network/tx/)
+```
+
+Example Response:
+```
+Address: <address>
+
+⏰ Recent USDT Transfers:
+
+Nothing to see here yet! No USDT activity 🌟
 ```
 
 ## Usage Notes
