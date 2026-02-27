@@ -64,7 +64,7 @@ Address: 7FFiaNrQSaH7RnBuvNWkDZBeMZ9cHv36c2pdnd2eQnH2
 ```
 
 ## Usage Notes
-•	<ADDRESS> must be a Soon Network address (32~44 chars).
-•	<SYMBOL> is the token symbol, e.g., USDT, ETH, USDC.
-•	viewTx links are Markdown-ready and clickable.
-•	All endpoints return JSON and are ready for programmatic use or curl testing.
+*	<ADDRESS> must be a Soon Network address (32~44 chars).
+*	<SYMBOL> is the token symbol, e.g., USDT, ETH, USDC.
+*	viewTx links are Markdown-ready and clickable.
+*	All endpoints return JSON and are ready for programmatic use or curl testing.
